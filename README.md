@@ -1,11 +1,3 @@
-- Build image: `docker build -t prometheus-go-service .`
+[![Build Status](https://travis-ci.org/xuyuji9000/prometheus-go-service.svg?branch=master)](https://travis-ci.org/xuyuji9000/prometheus-go-service)
 
-- Run container: `docker run -d -p 8080:8080 --rm prometheus-go-service`
-
-- Push Docker image: 
-
-    ```
-    DOCKER_ID_USER=DOCKER_ID_USER
-    docker tag prometheus-go-service $DOCKER_ID_USER/prometheus-go-service
-    docker push $DOCKER_ID_USER/prometheus-go-service
-    ```
+This project is for experimenting prometheus instrumentation feature.
